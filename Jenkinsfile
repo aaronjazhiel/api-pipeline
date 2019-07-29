@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh './web_client.sh'
+                chmod +x './web_client.sh'
+	        sh './web_client.sh'
 		echo 'Building'
             }
         }
