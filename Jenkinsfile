@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building'
+                sh './web_client.sh'
+		echo 'Building'
             }
         }
         stage('Test') {
