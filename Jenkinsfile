@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+		sh 'whoami'
 		sh('web_client.sh')
 		echo 'Building'
             }
