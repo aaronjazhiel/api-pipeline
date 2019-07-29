@@ -1,7 +1,6 @@
 # Pipeline - Publish API
 
-This pipeline manages the stages to publish an API defined  by the process of API Governance.
-
+This pipeline manages the stages defined by the process of API Governance to publish an API.
 ## Stages
 ### Consumer Driven Contract
 
